@@ -186,13 +186,12 @@ function queCounter(index) {
   botton_ques_counter.innerHTML = totalQuesCounTag;
 }
 
-//sair do quiz
+
 quit_quiz.onclick = () => {
-  //result_box.classList.remove("activeResult");
   window.location.reload();
   alert("obrigada por jogar!");
 };
-//recomeçar o jogo
+
 restart_quiz.onclick = () => {
   window.location.reload();
   let que_count = 0;
