@@ -18,5 +18,5 @@ const questions = [
     { numb: 17, question: "Qual é a função dos ribossomos nas células?", answer: "Síntese de proteínas", options: ["Produção de energia", "Armazenamento de nutrientes", "Síntese de proteínas", "Degradação de moléculas"] },
     { numb: 18, question: "Qual é o nome da estrutura que armazena água e nutrientes em células vegetais?", answer: "Vacuolo", options: ["Mitocôndria", "Cloroplasto", "Ribossomo", "Vacuolo"] },
     { numb: 19, question: "Qual é a unidade básica da vida?", answer: "Célula", options: ["Molécula", "Organoide", "Tecido", "Célula"] },
-    { numb: 20, question: "Qual é o principal tipo de célula que combate infecções no corpo humano?", answer: "Leucócitos", options: ["Eritrócitos", "Plaquetas", "Leucócitos", "Hemoglobina"] }
+    { numb: 20, question: "Quais dos seguintes pensadores são conhecidos por suas contribuições às teorias da abiogênese e da biogênese?", answer: "Louis Pasteur e Francesco Redi", options: ["Louis Pasteur e Francesco Redi", "Charles Darwin e Gregor Mendel", "Stanley Miller e Harold Urey", "Robert Hooke e Anton van Leeuwenhoek"] }
 ];
