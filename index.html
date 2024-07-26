@@ -1,25 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flags</title>
+    <link rel="stylesheet" href="bandeiras.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--START QUIZ BUTTON-->
+    <div class="start_btn"><button>Começar</button></div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz de Biologia</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <div class="quiz-container">
-        <img src="img/bioquiz.png" alt="Bio Quiz" class="quiz-image">
-        <div id="quiz"></div>
-        <button id="next">Próximo</button>
-        <button id="submit" style="display: none;">Enviar Respostas</button>
-        <div id="results"></div>
+    <!--info box-->
+    <div class="info_box">
+      <div class="info_title">
+        <span>Algumas regras do Jogo</span>
+      </div>
+      <div class="info_list">
+        <div class="info">
+          1. Tu vai ter <span>15 segundos</span> por questão;
+        </div>
+        <div class="info">
+          2. Se tu selecionar uma alternativa, não dá de (re)selecionar;
+        </div>
+        <div class="info">
+          3. Não dá de selecionar nenhuma opção se o tempo já tiver passado;
+        </div>
+        <div class="info">
+          4. Não dá de sair do jogo enquanto estás jogando;
+        </div>
+        <div class="info">
+          5. Irás conseguir pontos por cada alternativa correta;
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="quit">Sair do Quiz</button>
+        <button class="restart">Continuar</button>
+      </div>
     </div>
-    <div class="group-info">
-        <p>Grupo: Greice Pereira, Pedro Henrique, Mauro Rosa, Rafaela Prietsch e Gabriel Castro</p>
+    <!--QUIZ BOX-->
+    <div class="quiz_box">
+      <header>
+        <div class="title">Adivinha pela bandeira, o país</div>
+        <div class="timer">
+          <div class="time_text">Tempo</div>
+          <div class="timer_sec">15</div>
+        </div>
+        <div class="time_line"></div>
+      </header>
+      <section>
+        <div class="que_text">
+        </div>
+        <div class="option_list">
+      </section>
+      <!--quiz box footer-->
+      <footer>
+        <div class="total_que">
+        </div>
+        <button class="next_btn">Próxima</button>
+      </footer>
     </div>
-    <script src="script.js"></script>
-</body>
-
+    <!--Result box-->
+    <div class="result_box">
+      <div class="icon">
+        <i class="fas fa-crown"></i>
+      </div>
+      <div class="complete_text"></div>
+      <div class="score_text">
+      </div>
+      <div class="buttons">
+        <button class="restart">Recomeçar</button>
+        <button class="quit">Sair</button>
+      </div>
+    </div>
+    <script src="bandeiras.js"></script>
+    <script src="perguntas.js"></script>
+  </body>
 </html>
