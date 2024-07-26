@@ -125,16 +125,16 @@ function showResultBox() {
   if (userScore >= 12) {
     document.querySelector(".complete_text").innerHTML = "Muito bem!";
     document.querySelector(".score_text").innerHTML =
-      "<span>Tu consegiu<p>" + userScore + "</p>de<p>13</p></span>";
+      "<span>Tu consegiu<p>" + userScore + "</p>de<p>20</p></span>";
   } else if (userScore <= 12 && userScore >= 6) {
     document.querySelector(".complete_text").innerHTML = "Bom!";
     document.querySelector(".score_text").innerHTML =
-      "<span>Tu consegiu<p>" + userScore + "</p>de<p>13</p></span>";
+      "<span>Tu consegiu<p>" + userScore + "</p>de<p>20</p></span>";
   } else {
     document.querySelector(".complete_text").innerHTML =
       "É,,, Daria para ser melhor!";
     document.querySelector(".score_text").innerHTML =
-      "<span>Tu consegiu<p>" + userScore + "</p>de<p>13</p></span>";
+      "<span>Tu consegiu<p>" + userScore + "</p>de<p>20</p></span>";
   }
 }
 
