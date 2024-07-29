@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bioquiz - Quiz de Biologia</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body>
+  <img src="/img/bioquiz.png" alt="Logo Bioquiz" class="logo" id="logo" />
+  <div class="start_btn"><button>Começar</button></div>
+
+  <div class="info_box">
+    <div class="info_title">
+      <span>Regras do Jogo:</span>
+    </div>
+    <div class="info_list">
+      <div class="info">
+        1. Você terá <span>15 segundos</span> por questão;
+      </div>
+      <div class="info">
+        2. Se você selecionar uma alternativa, não poderá (re)selecionar;
+      </div>
+      <div class="info">
+        3. Você não poderá selecionar nenhuma opção se o tempo já tiver passado;
+      </div>
+      <div class="info">
+        4. Você não pode sair do jogo enquanto estiver jogando;
+      </div>
+      <div class="info">
+        5. Você conseguirá pontos por cada alternativa correta;
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="quit">Sair</button>
+      <button class="restart">Continuar</button>
+    </div>
+  </div>
+
+  <div class="quiz_box">
+    <header>
+      <div class="title">Selecione a alternativa correta:</div>
+      <div class="timer">
+        <div class="time_text">Tempo</div>
+        <div class="timer_sec">15</div>
+      </div>
+      <div class="time_line"></div>
+    </header>
+    <section>
+      <div class="que_text">
+      </div>
+      <div class="option_list">
+    </section>
+
+    <footer>
+      <div class="total_que">
+      </div>
+      <button class="next_btn">Próxima</button>
+    </footer>
+  </div>
+
+  <div class="result_box">
+    <div class="icon">
+      <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text"></div>
+    <div class="score_text">
+    </div>
+    <div class="buttons">
+      <button class="restart">Recomeçar</button>
+      <button class="quit">Sair</button>
+    </div>
+  </div>
+  <script src="questions.js"></script>
+  <script src="quiz.js"></script>
+</body>
+
+</html>
